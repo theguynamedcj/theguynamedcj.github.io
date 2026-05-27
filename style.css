@@ -98,7 +98,7 @@ body {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 2px solid #cc0000;
+    border: 2px solid #e6e1de;
     overflow: hidden;
     float: left;
     margin-right: 50px;
@@ -130,7 +130,7 @@ section p {
     width: 300px;
     background-color: #1e1e1e;
     border-radius: 15px;
-    border: 2px solid #cc0000;
+    border: 2px solid #e6e1de;
     overflow: hidden;
     position: relative;
 }
