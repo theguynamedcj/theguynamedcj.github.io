@@ -154,6 +154,15 @@ section ul li {
     position: relative;
 }
 
+.card1 {
+    width: 300px;
+    background-color: #1e1e1e;
+    border-radius: 15px;
+    border: 2px solid #e6e1de;
+    overflow: hidden;
+    position: relative;
+}
+
 main section h2,
 p {
     color: #e6e1de;
@@ -186,7 +195,7 @@ p {
     text-decoration: none;
 }
 
-.card:hover {
+.card1:hover {
     background-color: #2a2a2a;
 }
 .card-content li {
