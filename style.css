@@ -153,6 +153,7 @@ section ul li {
 }
 
 .card {
+    /* card for upcoming projects */
     width: 300px;
     background-color: #1e1e1e;
     border-radius: 15px;
@@ -162,6 +163,7 @@ section ul li {
 }
 
 .card1 {
+    /* main card for already published projects */
     width: 300px;
     background-color: #1e1e1e;
     border-radius: 15px;
