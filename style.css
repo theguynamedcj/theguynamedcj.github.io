@@ -75,6 +75,11 @@ section img {
     height: 100%;
     object-fit: cover;
     display: block;
+    transition: ease 0.2s;
+}
+
+section img:hover {
+    opacity: 0.6;
 }
 
 body,
@@ -125,6 +130,7 @@ section ul li {
 .badge {
     width: 50px;
     height: auto;
+    transition: 0.2s ease;
 }
 
 .badges {
@@ -134,7 +140,7 @@ section ul li {
 }
 
 .badge:hover {
-    transform: translateY(-3px);
+    transform: translateY(-5px);
 }
 
 .container {
@@ -161,6 +167,7 @@ section ul li {
     border: 2px solid #e6e1de;
     overflow: hidden;
     position: relative;
+    transition: 0.5s ease;
 }
 
 main section h2,
