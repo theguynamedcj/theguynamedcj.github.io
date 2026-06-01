@@ -137,6 +137,8 @@ section ul li {
 .badges {
     margin-top: 15px;
     display: flex;
+    flex-wrap: wrap;
+    /*  justify-content: center; */
     gap: 10px;
 }
 
