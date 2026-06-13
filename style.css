@@ -8,7 +8,7 @@ body {
 
 header {
     background-color: #e6e1de;
-    color: #020000;
+    color: #1e1e1e;
     padding: 20px 0;
     text-align: center;
 }
@@ -46,12 +46,30 @@ nav ul ul {
   }
 */
 nav ul ul a {
-    color: #080501;
+    position: relative;
+    color: #1e1e1e;
     text-decoration: none;
+    transition: 0.5s ease;
 }
 
 nav ul a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: #1e1e1e;
+}
+
+nav ul ul a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: #1e1e1e;
+    transition: width 0.3s ease;
+}
+
+nav ul a:hover::after {
+    width: 100%;
 }
 
 main {
@@ -95,7 +113,7 @@ li {
 }
 
 body {
-    background-color: #1c1c1c;
+    background-color: #1e1e1e;
 }
 
 /* This is where the text is placed around the image*/
@@ -241,8 +259,8 @@ p {
     list-style: none;
     padding: 0;
     margin: 10px 0 0;
-    display: inline-block; /* makes the list shrink to its contents so it can be centered */
-    text-align: left; /* keep list items left-aligned within the inline block (optional) */
+    display: inline-block;
+    text-align: left;
 }
 
 #friends li {
@@ -250,10 +268,28 @@ p {
 }
 
 #friends a {
+    position: relative;
     color: #e6e1de;
     text-decoration: none;
+    transition: 0.5s ease;
 }
 
 #friends a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: #e6e1de;
+}
+
+#friends a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: #e6e1de;
+    transition: width 0.3s ease;
+}
+
+#friends a:hover::after {
+    width: 100%;
 }
