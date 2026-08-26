@@ -93,7 +93,7 @@ section img {
     height: 100%;
     object-fit: cover;
     display: block;
-    transition: ease 0.2s; /* transition for hover */
+    transition: 0.2s ease; /* transition for hover */
 }
 
 /* hover opacity animations for the badge and pfp */
@@ -198,6 +198,11 @@ p {
     color: #e6e1de;
 }
 
+#projects a {
+    text-decoration: none;
+}
+
+
 .card img {
     width: 100%;
     height: auto;
@@ -212,8 +217,14 @@ p {
     color: #e6e1de;
     font-size: 20px;
     margin-bottom: 10px;
+    text-decoration: none;
     transition: 0.2s;
 }
+
+#projects h3 {
+    text-decoration: none;
+}
+
 
 .card-content p {
     color: #e6e1de;
@@ -223,17 +234,17 @@ p {
     transition: 0.2s;
 }
 
-.card-content a {
-    text-decoration: none;
-}
-
 .card:hover {
     background-color: #e6e1de;
     border: 2px solid #1e1e1e;
 }
 
-.card:hover a h3 {
+.card:hover h3 {
     color: #1e1e1e;
+}
+
+.card:hover img {
+    opacity: 0.6;
 }
 
 .card:hover p {
